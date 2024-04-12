@@ -1,0 +1,53 @@
+.stocks {
+  background: var(--black);
+
+  &__title {
+    padding: 13px 54px 18px 26px;
+    width: 140px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--gold);
+
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 133.4%;
+
+    clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 21px;
+    list-style: none;
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    color: var(--white);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 133.4%;
+		letter-spacing: 7%;
+  }
+}
