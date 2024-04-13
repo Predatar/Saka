@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import Container from '../../../container/Container/Container';
-import ROUTES from '../../../routes/routes';
+import Container from '@container/Container/Container';
+import ROUTES from '@routes';
 
 const HeaderMiddle = () => {
   return (

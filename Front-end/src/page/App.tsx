@@ -1,10 +1,10 @@
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Layout from '../container/Layout/Layout';
-import ROUTES from '../routes/routes';
+import Layout from '@container/Layout/Layout';
+import ROUTES from '@routes';
 import '../styles/index.scss';
 import Page404 from './Page404/Page404';
-import Loader from '../components/Loader/Loader';
+import Loader from '@components/Loader/Loader';
 
 const Main = lazy(() => import('./Main/Main'));
 const News = lazy(() => import('./News/News'));

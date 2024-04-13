@@ -1,4 +1,15 @@
-import Container from '../../../container/Container/Container';
+import Container from '@container/Container/Container';
+import Img from '@ui/Img/Img';
+
+import material1 from '@assets/img/stocks/Material_1.png';
+import material2 from '@assets/img/stocks/Material_2.png';
+import material3 from '@assets/img/stocks/Material_3.png';
+import material4 from '@assets/img/stocks/Material_4.png';
+import material5 from '@assets/img/stocks/Material_5.png';
+import material6 from '@assets/img/stocks/Material_6.png';
+import material7 from '@assets/img/stocks/Material_7.png';
+import material8 from '@assets/img/stocks/Material_8.png';
+import material9 from '@assets/img/stocks/Material_9.png';
 
 import './stocks.scss';
 
@@ -11,55 +22,55 @@ const Stocks = () => {
           <ul className="stocks__list">
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_1.png" alt="Материал ткани" />
+                <Img src={material1} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Кулинарная гладь</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_2.png" alt="Материал ткани" />
+                <Img src={material2} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Футер</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_3.png" alt="Материал ткани" />
+                <Img src={material3} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Кашкорсе, рибана</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_4.png" alt="Материал ткани" />
+                <Img src={material4} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Пике</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_5.png" alt="Материал ткани" />
+                <Img src={material5} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Интерлок</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_6.png" alt="Материал ткани" />
+                <Img src={material6} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Капитоний</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_7.png" alt="Материал ткани" />
+                <Img src={material7} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Селаник</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_8.png" alt="Материал ткани" />
+                <Img src={material8} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Велюр</span>
             </li>
             <li className="stocks__list-item">
               <div className="stocks__img">
-                <img src="http://localhost:3000/stocks/Material_9.png" alt="Материал ткани" />
+                <Img src={material9} alt="Материал ткани" />
               </div>
               <span className="stocks__text">Вискоза</span>
             </li>

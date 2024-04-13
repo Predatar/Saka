@@ -1,4 +1,4 @@
-import { ShoppingCartIcon } from '../../icons/icons';
+import { ShoppingCartIcon } from '@icons/icons';
 
 import './Basket.scss';
 

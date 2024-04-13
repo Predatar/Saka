@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { UsetIcon } from '../../icons/icons';
+import { UsetIcon } from '@icons/icons';
+import ROUTES from '@routes';
 
 import './PersonalCabinet.scss';
-import ROUTES from '../../routes/routes';
 
 const PersonalCabinet = () => {
   return (
